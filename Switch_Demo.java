@@ -14,6 +14,7 @@ public class Switch_Demo
 		char ch =sc .next().charAt(0);
 		switch(ch)
 		{
+				
 		case '+':
 			int c = frist_Number+second_Number;
 			System.out.println("Addition\n" +c);
