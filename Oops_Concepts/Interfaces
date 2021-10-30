@@ -1,0 +1,17 @@
+interface I1
+{
+  void show();
+}
+class Test impliments I1
+{
+  public void show()
+  {
+    System.out.println("INterface Done");
+  }
+  public static void main(String []args)
+  {
+    Test t= new Test();
+    t.show();
+  }
+  
+}
