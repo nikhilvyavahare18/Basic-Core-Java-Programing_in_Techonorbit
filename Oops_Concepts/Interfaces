@@ -1,6 +1,6 @@
 interface I1
 {
-  void show();
+  abstract void show();
 }
 class Test impliments I1
 {
