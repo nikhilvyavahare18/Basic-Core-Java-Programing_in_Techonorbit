@@ -1,0 +1,17 @@
+abstract class vehical
+{ 
+  abstract void start();
+}
+class car extends vehical
+{ 
+  void start()
+  {
+    System.out.println("Start with key");
+  }
+  public static void main(String args[])
+  {
+    car c = new car();
+    c.start();
+    
+  }
+}
