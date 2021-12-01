@@ -3,8 +3,8 @@ class demo
 		
 		int imployeId;
 		String name;
-		 String company="capgemini";
-		
+		 static String company="capgemini";
+		                                                //used to memory allocation
 		
 		demo(int impolyeId,String name)
 		{
